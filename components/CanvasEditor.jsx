@@ -15,7 +15,7 @@ export default function CanvasEditor() {
 
   const [position, setPosition] = useState({
     x: 63,
-    y: canvasSize / 2 - imageHeight / 2 + 70,
+    y: canvasSize / 2 - imageHeight / 2 + 78,
   });
 
   const handleUpload = (e) => {
